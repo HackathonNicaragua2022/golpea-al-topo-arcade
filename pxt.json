@@ -1,0 +1,30 @@
+{
+    "name": "Golpea al topo Arcade",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "carnival": "github:microsoft/arcade-carnival",
+        "mole-images": "github:kiki-lee/mole-images#v0.0.2"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "images.g.jres",
+        "images.g.ts",
+        "pxt.json",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.12.18",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "pyprj"
+}
